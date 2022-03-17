@@ -3,12 +3,36 @@
  */
 package CS5103;
 
-public class App {
-    public String getGreeting() {
-        return "Hello World!";
-    }
+import java.util.Scanner;
 
+/**
+ * Main driver program to show a set of choices to the user and drive the application accordingly.
+ */
+public class App {
+
+    /**
+     * Java main entrypoint.
+     * @param args arguments passed from the command line.
+     */
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+        System.out.println("****** Welcome to Software Engineering project *****");
+        System.out.println("Please select the application to run: ");
+        System.out.println("1. Word counter");
+        System.out.println("2. Word statistics");
+        System.out.println("3. Exit the app");
+
+        Scanner sc = new Scanner(System.in);
+        int choice = sc.nextInt();
+        switch (choice) {
+            case 1:
+                WordCounter wordCounter = new WordCounter();
+                wordCounter.execute();
+                break;
+            case 2:
+                WordStatistics wordStatistics = new WordStatistics();
+                wordStatistics.execute();
+            default:
+                System.exit(0);
+        }
     }
 }

@@ -35,6 +35,11 @@ The project can be executed by Gradle or Java
    1. Go to main folder's build/libs `cd CS5103/build/libs`
    2. Execute `java -cp CS5103.jar CS5103.App`
 
+
+## Running the tests
+Tests can be executed with gradle as:  
+`./gradlew test`
+
 ## References 
 1. [Run main class from a jar](https://stackoverflow.com/questions/5474666/how-to-run-a-class-from-jar-which-is-not-the-main-class-in-its-manifest-file)
 2. 
