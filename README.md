@@ -4,7 +4,11 @@
 
 The software program implements a set of string manipulation functions on a document, to gather various metrics on the   
 words stored in that document. We start with finding the unique words along with their frequencies and extend the application  
-to perform several advanced functions.   
+to perform several advanced functions.
+
+## User stories 
+All the user stories of the project are available here:
+https://github.com/users/abhishektiwari98/projects/1/views/1
 
 ## Dev environment
 This is a standalone Java application that is built using [Gradle](https://docs.gradle.org/current/userguide/userguide.html). 
@@ -34,11 +38,19 @@ The project can be executed by Gradle or Java
 2. Execute using Java
    1. Go to main folder's build/libs `cd CS5103/build/libs`
    2. Execute `java -cp CS5103.jar CS5103.App`
-
+3. Chose the requirement number that you want to execute/test. 
 
 ## Running the tests
 Tests can be executed with gradle as:  
 `./gradlew test`
+
+## Example runs  
+1. Word counter sample run   
+![alt text](docs/img/word-counter.png)
+
+
+2. Word replacement sample run  
+![alt text](docs/img/word-replacement.png)  
 
 ## References 
 1. [Run main class from a jar](https://stackoverflow.com/questions/5474666/how-to-run-a-class-from-jar-which-is-not-the-main-class-in-its-manifest-file)

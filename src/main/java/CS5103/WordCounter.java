@@ -32,6 +32,7 @@ public class WordCounter {
             return resultMap;
         }
 
+        // Regular expression to determine space, new line or tab character.
         String[] splitResult = input.split("[\\s|\\n|\\t]");
         for (String str : splitResult) {
             if (!str.isEmpty()) {

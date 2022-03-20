@@ -18,7 +18,7 @@ public class App {
         System.out.println("****** Welcome to Software Engineering project *****");
         System.out.println("Please select the application to run: ");
         System.out.println("1. Word counter");
-        System.out.println("2. Word statistics");
+        System.out.println("2. Word replacement");
         System.out.println("3. Exit the app");
 
         Scanner sc = new Scanner(System.in);
