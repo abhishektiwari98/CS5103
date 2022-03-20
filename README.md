@@ -2,9 +2,9 @@
 
 ## Strings and Words application 
 
-The software program implements a set of string manipulation functions on a document, to gather various metrics on the   
-words stored in that document. We start with finding the unique words along with their frequencies and extend the application  
-to perform several advanced functions.
+The software program implements a set of string manipulation functions on a document, to gather various metrics on the words
+stored in that document. We start with finding the unique words along with their frequencies and extend the application to 
+perform several advanced functions.
 
 ## User stories 
 All the user stories of the project are available here:
