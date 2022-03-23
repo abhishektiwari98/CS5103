@@ -6,7 +6,9 @@ The software program implements a set of string manipulation functions on a docu
 stored in that document. We start with finding the unique words along with their frequencies and extend the application to 
 perform several advanced functions.
 
-## User stories 
+## User stories
+Repo Link is: https://github.com/abhishektiwari98/CS5103
+
 All the user stories of the project are available here:
 https://github.com/users/abhishektiwari98/projects/1/views/1
 
