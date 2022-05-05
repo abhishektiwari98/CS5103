@@ -3,6 +3,9 @@
  */
 package CS5103;
 
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Scanner;
 
 /**
@@ -14,12 +17,13 @@ public class App {
      * Java main entrypoint.
      * @param args arguments passed from the command line.
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         System.out.println("****** Welcome to Software Engineering project *****");
         System.out.println("Please select the application to run: ");
         System.out.println("1. Word counter");
         System.out.println("2. Word replacement");
-        System.out.println("3. Exit the app");
+        System.out.println("3. Grepline");
+        System.out.println("4. Exit the app");
 
         Scanner sc = new Scanner(System.in);
         int choice = sc.nextInt();
@@ -31,6 +35,10 @@ public class App {
             case 2:
                 WordStatistics wordStatistics = new WordStatistics();
                 wordStatistics.execute();
+                break;
+            case 3:
+                GrepLine grepLine = new GrepLine();
+                grepLine.execute();
             default:
                 System.exit(0);
         }
