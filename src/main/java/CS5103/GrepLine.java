@@ -1,8 +1,5 @@
 package CS5103;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -10,7 +7,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * Program to perform word replacements.
+ * Program to perform grepline.
  */
 public class GrepLine {
     public void execute() throws IOException {
@@ -23,16 +20,15 @@ public class GrepLine {
         String keyword = sc.nextLine();
 
 
-        System.out.println("Output lines: ");
+        System.out.println("Output lines with keyword "+keyword+ " are:");
         for(String line:lines){
             String[] s = line.split(" ");
             for(String words:s){
                 if(words.matches("\\b"+keyword+"\\b")) {
                     System.out.println(line);
+                    break;
                 }
             }
-
-
         }
 
     }
