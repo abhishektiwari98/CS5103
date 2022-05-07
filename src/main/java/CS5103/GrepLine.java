@@ -21,6 +21,7 @@ public class GrepLine {
 
 
         System.out.println("Output lines with keyword "+keyword+ " are:");
+        System.out.println();
         for(String line:lines){
             String[] s = line.split(" ");
             for(String words:s){
