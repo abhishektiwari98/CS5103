@@ -1,5 +1,13 @@
 # CS5103 Software Engineering
 
+## Specification
+
+In this project, intially the program performs word statistics of a given string. First, it takes a string as input and counts the freaquency of each unique word given in the string. After taking the input string from user it returns the number of times each unique word occured. Word statistics also takes spaces tabs and new lines as seperators so even if the string consist of spaces, tabs and new lines it still returns the frequency of each word.
+
+Then the prject is extended with another feature which is to provide a replacement word for all occurences of a word in the string. So, first the program takes an input string, the word to replace and asks the user for the word that has to be in the place of replacement word. Then it returns the final string with word to be replaced given. Also the program only replaces the given word when it matches with the whole replacement word and not just the characters.
+
+Additionally the project is extended with another feature called Grepline. Grepline takes a document and a keyword as input and return the lines from the document. The output lines must contain one occurence of the given keyword and the keyword must also match with the occurence word completely and not just few characters.
+
 ## Implementation (Strings and Words application) 
 
 The software program implements a set of string manipulation functions on a document, to gather various metrics on the words
