@@ -52,7 +52,10 @@ Tests can be executed with gradle as:
 
 
 2. Word replacement sample run  
-![alt text](docs/img/word-replacement.png)  
+![alt text](docs/img/word-replacement.png)
+
+3. Grepline sample run
+![alt text](docs/img/Grepline.png)
 
 ## References 
 1. [Run main class from a jar](https://stackoverflow.com/questions/5474666/how-to-run-a-class-from-jar-which-is-not-the-main-class-in-its-manifest-file)
