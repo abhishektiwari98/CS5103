@@ -1,15 +1,15 @@
 # CS5103 Software Engineering
 
-## Strings and Words application 
+## Implementation (Strings and Words application) 
 
 The software program implements a set of string manipulation functions on a document, to gather various metrics on the words
 stored in that document. We start with finding the unique words along with their frequencies and extend the application to 
 perform several advanced functions.
 
-## User stories
+## User stories and test cases
 Repo Link is: https://github.com/abhishektiwari98/CS5103
 
-All the user stories of the project are available here:
+All the user stories and test cases of the project are available here:
 https://github.com/users/abhishektiwari98/projects/1/views/1
 
 ## Dev environment
