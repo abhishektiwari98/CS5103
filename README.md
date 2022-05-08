@@ -57,8 +57,11 @@ The project can be executed by Gradle or Java
 3. Chose the requirement number that you want to execute/test.
 
 ## Tool Application
+I have used Sonarqube for static bug detection and code clone detection. SonarQube is an open-source platform created by SonarSource for continuous code quality inspection and static code analysis to find flaws and code smells in over 20 programming languages.
 ![alt text](docs/img/Test1.png)
 ![alt text](docs/img/Test2.png)
+
+The images below shows most code clone detections of Syestem.out as I used "System.out.println" for giving all the outputs.
 ![alt text](docs/img/Clone1.png)
 ![alt text](docs/img/Clone2.png)
 
