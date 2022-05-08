@@ -20,7 +20,9 @@ https://github.com/users/abhishektiwari98/projects/1/views/1
 
 ## Design change report
 Initial design of this project displays a welcome output and the first requirement i.e. "Word counter" as choice 1. and 2 as "exit the app" to close the program. To execute first program, after executing the main project we enter 1 and execute then it asks for the required strings to perform the first requirement completely.
+
 Then the second feature is added as "Word replacement" as choice 2 just like first. To perform second requirement completely, we enter 2 and execute. And then it asks for the words to replace in the string. Also, the feature "exit the app" shifts to no 3 after adding the second program.
+
 The final design changes on the last feature which then is added as "Grepline" at no 3 and "Exit the app" shifts to choice no 4. To perform the third program(Grepline) we enter 3 and execute the program just like the first two programs. And finally, for executing "exit the app" we choose 4 and execute(enter button) and the whole program closes.
 
 
