@@ -57,8 +57,10 @@ The project can be executed by Gradle or Java
 3. Chose the requirement number that you want to execute/test.
 
 ## Tool Application
-
-
+![alt text](docs/img/Test1.png)
+![alt text](docs/img/Test2.png)
+![alt text](docs/img/Clone1.png)
+![alt text](docs/img/Clone2.png)
 
 ## Running the tests
 Tests can be executed with gradle as:  
