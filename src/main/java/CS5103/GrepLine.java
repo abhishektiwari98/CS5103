@@ -3,6 +3,7 @@ package CS5103;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -20,28 +21,24 @@ public class GrepLine {
         String keyword = sc.nextLine();
 
 
-        System.out.println("Output lines with keyword "+keyword+ " are:");
+        System.out.println("Output lines with keyword " + keyword + " are:");
         System.out.println();
-        for(String line:lines){
+        List<String> matchedLines = getMatchedLines(lines, keyword);
+        System.out.println(matchedLines);
+    }
+
+    public List<String> getMatchedLines(final List<String> inputList, final String keyword) {
+        List<String> output = new ArrayList<>();
+        for (String line : inputList) {
             String[] s = line.split(" ");
-            for(String words:s){
-                if(words.matches("\\b"+keyword+"\\b")) {
-                    System.out.println(line);
+            for (String words : s) {
+                if (words.matches("\\b" + keyword + "\\b")) {
+                    output.add(line);
                     break;
                 }
             }
         }
 
+        return output;
     }
-
-    /**
-     * Replaces all the occurrences of the string represented by "source" with "target"
-     * in the input string.
-     *
-     * @param input input string.
-     * @param source word to be replaced.
-     * @param target word to be replaced with.
-     * @return a new string with all the replacements of source with target.
-     */
-
 }
