@@ -55,6 +55,7 @@ The project can be executed by Gradle or Java
    1. Go to main folder's build/libs `cd CS5103/build/libs`
    2. Execute `java -cp CS5103.jar CS5103.App`
 3. Chose the requirement number that you want to execute/test.
+4. Note: For running the third requirement "Grepline", first read the input file given in the Main project's folder as "Inputfile" to give the keyword for getting the output lines.
 
 ## Tool Application
 I have used Sonarqube for static bug detection and code clone detection. SonarQube is an open-source platform created by SonarSource for continuous code quality inspection and static code analysis to find flaws and code smells in over 20 programming languages.
