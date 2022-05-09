@@ -71,7 +71,7 @@ The images below shows most code clone detections of Syestem.out as I used "Syst
 
 
 ## Unit Tests
-All the unit test executed successfully and in the directory `./src/test/java/CS5103`
+All the unit test executed successfully and given in the directory `./src/test/java/CS5103`
 
 ## Running the tests
 Tests can be executed with gradle as:  
